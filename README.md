@@ -1,1 +1,1 @@
-Gloriafood menu integration in react + tailwind (frontend) and node + express (backend), with fetchmenu api.
+Instructions for use: Rename the file env.example.txt to .env by replacing the asterisks with the correct values
