@@ -5,6 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
+    "dev": "nodemon server.js",
     "preinstall": "npx npm-force-resolutions"
   },
   "keywords": [],
@@ -27,6 +28,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-react": "^7.37.3",
-    "globals": "^15.14.0"
+    "globals": "^15.14.0",
+    "nodemon": "^3.1.9"
   }
 }
