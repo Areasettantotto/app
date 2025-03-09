@@ -88,8 +88,10 @@ const MenuCard = ({ item, showImage = true }) => {
               />
             </>
           ) : (
-            <div className="w-full h-64 bg-gray-200 flex items-center justify-center text-gray-500 rounded-lg mb-2">
-              Nessuna immagine disponibile
+            <div className="w-full h-64 bg-gray-200 flex items-center justify-center text-gray-500 text-center rounded-lg mb-2">
+              Nessuna immagine disponibile. Carica un file così nominato{' '}
+              {item.id}
+              .jpg.
             </div>
           )}
         </div>
